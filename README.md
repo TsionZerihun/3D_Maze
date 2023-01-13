@@ -3,7 +3,6 @@
 -----
 ``gcc -O2 -g -Wall -Werror -Wextra -pedantic -Isrc/headers *.c -lSDL2 -lSDL2_image -lm -o maze `sdl2-config --cflags --libs` `` OR `make -f Makefile`
 - Run the maze: `./maze` or `./maze maps/<map_name>`
-- Disable textures: `./maze no_tex` or `./maze maps/<map_name> no_tex`
 
 -
 
